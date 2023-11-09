@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Koalla Holla</title>
     <link rel="stylesheet" href="views/styles.css">
+    <script src="scripts/axios.js"></script>
     <script defer src="scripts/client.js" charset="utf-8"></script>
   </head>
   <body>
@@ -20,7 +21,7 @@
       <input type="text" id="genderIn" value="" placeholder="Gender">
       <input type="text" id="readyForTransferIn" value="" placeholder="Transfer">
       <input type="text" id="notesIn" value="" placeholder="Notes">
-      <button type="button" id="addButton">Add Koala</button>
+      <button type="button" id="addButton" onclick="addKoala(event)">Add Koala</button>
     </section>
     <section>
       <h2>All Koalas</h2>
